@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body {
+font-family: 'Ubuntu', sans-serif;
+margin: 0px;
+background: url(img.jpg) no-repeat center center fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 7px 2px;
+}
+
+#landing-page{
+    background-color:#f05f44;
+}
+#landing-page:hover{
+    background-color:#ff2600;
+}
+#cherie{
+    background-color: #a75334;
+    border:#7f351b;
+}
+#cherie:hover{
+    background-color: #7f351b;
+    border:#7f351b;
+}
+#text-edit{
+    background-color: #ffd394;
+}
+#text-edit:hover{
+    background-color: #ffbc5e;
+}
+#news{
+    background-color: #707795;
+    color: white;
+}
+#news:hover{
+    background-color: #3b477a;
+}
